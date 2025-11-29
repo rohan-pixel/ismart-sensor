@@ -1,0 +1,60 @@
+.my-assets-list {
+  margin: 2rem auto;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .no-content {
+    width: 100%;
+    background-color: $bg;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 3rem 1rem;
+    border-radius: 5px;
+
+    img {
+      width: 30%;
+      max-width: 200px;
+    }
+  }
+
+  .asset-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+
+    .heading {
+      font-size: 0.8rem;
+      text-align: left;
+    }
+  }
+}
+
+.edit-asset-form {
+  max-width: 800px;
+  margin: auto;
+
+  .input-fields {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    margin: 1.2rem auto;
+    margin-bottom: 2rem;
+  }
+
+  .configure-fields {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 1.2rem;
+
+    .configure-input {
+      max-width: fit-content;
+    }
+  }
+}

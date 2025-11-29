@@ -1,0 +1,62 @@
+// #root {
+
+// }
+
+.container {
+  background-color: $white;
+  margin: 1rem auto;
+  border-radius: 5px;
+  min-height: 80vh;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  overflow: auto;
+}
+
+.min-height-container {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.heading {
+  font-size: $heading;
+  color: $charcoal;
+  font-weight: 700 !important;
+}
+
+.sub-heading {
+  font-weight: 700;
+  color: $charcoal;
+  margin-bottom: 0.5rem;
+}
+
+.detail {
+  font-weight: normal;
+  color: $lightGray;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+}
+
+.link {
+  color: $blue;
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.icondiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.algnRight {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}

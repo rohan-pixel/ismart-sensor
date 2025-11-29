@@ -1,0 +1,10 @@
+.loading-container {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .loading-item {
+    width: 100%;
+  }
+}

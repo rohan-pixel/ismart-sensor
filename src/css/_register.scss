@@ -1,0 +1,79 @@
+.bg {
+  background-color: $bg;
+  background-image: linear-gradient(
+    to right top,
+    #613db8,
+    #876dcd,
+    #ad9de0,
+    #d5cef1,
+    #ffffff
+  );
+
+  .regis-container {
+    padding: 1rem 1.2rem;
+    border-radius: 10px;
+    // -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    // box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    background-color: $bg;
+    backdrop-filter: 4px;
+    min-width: 300px;
+    width: 50%;
+    // max-width: 800px;
+    .login-sub-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 2rem;
+
+      .left,
+      .right {
+        flex: 1;
+      }
+
+      .left {
+        .heading-detail {
+          font-weight: 400;
+          color: $lightGray;
+          margin-bottom: 0.5rem;
+        }
+
+        .desc {
+          margin: 1rem 0;
+        }
+      }
+
+      .right {
+        display: flex;
+        flex-direction: column;
+
+        .error-box {
+          margin-top: 0.5rem;
+          margin-bottom: 0.8rem;
+        }
+
+        .regis-form {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          gap: 1rem;
+
+          .link {
+            font-weight: 600;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .bg {
+    .left {
+      display: none;
+    }
+
+    hr {
+      display: none;
+    }
+  }
+}

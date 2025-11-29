@@ -1,0 +1,41 @@
+.dashboard-container {
+  padding: 1rem 1.2rem;
+  background-color: $white;
+  margin-top: 1rem;
+  border-radius: 5px;
+  max-height: 90vh;
+  min-height: 80vh;
+  overflow: auto;
+
+  .top {
+    position: relative;
+    .heading {
+      text-align: center;
+      width: 100%;
+    }
+  }
+
+  .image-container {
+    width: 100%;
+    height: auto;
+    margin: 1.2rem auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    img {
+      width: 100%;
+      height: auto;
+      max-width: 300px;
+      min-width: 200px;
+    }
+  }
+
+  .chart-container {
+    width: 100%;
+    padding: 1.2rem 1rem;
+    border: 1px solid $charcoal;
+    border-radius: 5px;
+    margin: 1rem auto;
+  }
+}
