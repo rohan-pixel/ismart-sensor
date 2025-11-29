@@ -1,4 +1,4 @@
-```markdown
+
 # Integer Smart Sensor 🌐
 
 
